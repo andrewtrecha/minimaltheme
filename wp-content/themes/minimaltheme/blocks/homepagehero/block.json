@@ -1,0 +1,16 @@
+{
+    "name": "acf/homepage-hero",
+    "title": "Homnepage Hero",
+    "description": "A custom hero block that uses ACF fields.",
+    "style": [],
+    "category": "custom",
+    "icon": "admin-comments",
+    "keywords": ["hero", "banner"],
+    "acf": {
+        "mode": "preview",
+        "renderTemplate": "homepage-hero.php"
+    },
+    "supports": {
+        "anchor": true
+    }
+}
